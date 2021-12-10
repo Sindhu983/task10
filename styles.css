@@ -2,6 +2,15 @@
 .container{
     display: flex;
     flex-direction: column;
-    max-width:30%;
+    max-width:60%;
     padding: 1rem;
+    margin: 1rem;
+    background-color: indigo;
+    color: white;
+}
+button{
+    padding:0rem;
+    margin: 1rem;
+    
+
 }
