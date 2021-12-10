@@ -1,5 +1,4 @@
 const billAmount=document.querySelector("#bill-amount")
-// console.log(billAmount)
 const cashGiven=document.querySelector("#cash-given")
 const checkBtn=document.querySelector("#check-button")
 const message=document.querySelector("#error-message")
@@ -9,7 +8,6 @@ const availableNotes=[2000,500,100,20,10,5,1]
 
 checkBtn.addEventListener("click",function validateBillAndCashAmount(){
     hideMessage();
-    message.style.display="none";
     if(billAmount.value > 0){
         if(cashGiven.value >= billAmount.value){
             const amountToBeReturned=cashGiven.value - billAmount.value;
